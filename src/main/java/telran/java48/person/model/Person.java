@@ -22,8 +22,9 @@ import lombok.Setter;
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 public class Person implements Serializable {
-	private static final long serialVersionUID = -7307107779894340657L;
+	
 
+	private static final long serialVersionUID = 3562976952368741732L;
 	@Id
 	Integer id;
 	@Setter
